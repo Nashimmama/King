@@ -10,7 +10,7 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
 # === Configuration ===
 ADMIN_IDS = [5879359815]
-BOT_TOKEN = "7029774286:AAFKwDaT3fQBJ3ZAdhgSN0MXWWaevUU2G5k"  # Replace with your bot token
+BOT_TOKEN = "7029774286:AAFVFnK_JeESwYUINcVk4-zSnfNEQUHwShU"  # Replace with your bot token
 USERS_FILE = 'users.json'
 KEYS_FILE = 'keys.json'
 blocked_ports = [8700, 20000, 443, 17500, 9031, 20002, 20001]
